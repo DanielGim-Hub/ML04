@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6dbf045d27e7aa9bdfb773ff2046b094 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6dbf045d27e7aa9bdfb773ff2046b094" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6dbf045d27e7aa9bdfb773ff2046b094 = L.map(
+                "map_6dbf045d27e7aa9bdfb773ff2046b094",
+                {
+                    center: [55.1599, 61.4029],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b4e6c58e11b50d096a8b5b50ef19651e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b4e6c58e11b50d096a8b5b50ef19651e.addTo(map_6dbf045d27e7aa9bdfb773ff2046b094);
+        
+    
+            var marker_1073e6cd6104a451c0750d19432334dd = L.marker(
+                [55.1599, 61.4029],
+                {
+}
+            ).addTo(map_6dbf045d27e7aa9bdfb773ff2046b094);
+        
+    
+            var icon_cf778b30b676ef324cd268fb0176a88e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_43d20d8c5554b7642c5788b2816d4532 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0701f1e6ccc25e93a3789066c8b99b1b = $(`<div id="html_0701f1e6ccc25e93a3789066c8b99b1b" style="width: 100.0%; height: 100.0%;">Челябинск Приоритет: 7</div>`)[0];
+                popup_43d20d8c5554b7642c5788b2816d4532.setContent(html_0701f1e6ccc25e93a3789066c8b99b1b);
+            
+        
+
+        marker_1073e6cd6104a451c0750d19432334dd.bindPopup(popup_43d20d8c5554b7642c5788b2816d4532)
+        ;
+
+        
+    
+    
+                marker_1073e6cd6104a451c0750d19432334dd.setIcon(icon_cf778b30b676ef324cd268fb0176a88e);
+            
+    
+            var marker_eaeaa990e9fb03a227de1cb681503841 = L.marker(
+                [55.8304, 49.0661],
+                {
+}
+            ).addTo(map_6dbf045d27e7aa9bdfb773ff2046b094);
+        
+    
+            var icon_1f027954ac9f4254df8dc4903fddaee6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2fb669d9f39dbc7628087b2a96058549 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62d613f106697b5069c07d9e6f15c894 = $(`<div id="html_62d613f106697b5069c07d9e6f15c894" style="width: 100.0%; height: 100.0%;">Казань Приоритет: 9</div>`)[0];
+                popup_2fb669d9f39dbc7628087b2a96058549.setContent(html_62d613f106697b5069c07d9e6f15c894);
+            
+        
+
+        marker_eaeaa990e9fb03a227de1cb681503841.bindPopup(popup_2fb669d9f39dbc7628087b2a96058549)
+        ;
+
+        
+    
+    
+                marker_eaeaa990e9fb03a227de1cb681503841.setIcon(icon_1f027954ac9f4254df8dc4903fddaee6);
+            
+    
+            var marker_28c7a0972d2ffae4383cf849b6b6742d = L.marker(
+                [59.9343, 30.3351],
+                {
+}
+            ).addTo(map_6dbf045d27e7aa9bdfb773ff2046b094);
+        
+    
+            var icon_4368e3b11f4518ad460cc81675cd19e4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a2dda7c4f7751d89ec3ead29ea030b13 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd172b7705a4e60f764e4b44ee6c0995 = $(`<div id="html_bd172b7705a4e60f764e4b44ee6c0995" style="width: 100.0%; height: 100.0%;">Санкт-Петербург Приоритет: 2</div>`)[0];
+                popup_a2dda7c4f7751d89ec3ead29ea030b13.setContent(html_bd172b7705a4e60f764e4b44ee6c0995);
+            
+        
+
+        marker_28c7a0972d2ffae4383cf849b6b6742d.bindPopup(popup_a2dda7c4f7751d89ec3ead29ea030b13)
+        ;
+
+        
+    
+    
+                marker_28c7a0972d2ffae4383cf849b6b6742d.setIcon(icon_4368e3b11f4518ad460cc81675cd19e4);
+            
+    
+            var marker_a9ede2a2e83325b6d491772579d642e3 = L.marker(
+                [47.2355, 39.7078],
+                {
+}
+            ).addTo(map_6dbf045d27e7aa9bdfb773ff2046b094);
+        
+    
+            var icon_0d9536ae43b66461736fbadf916afef2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_41f8ba059d3b943cd18c193314356d5b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b41367036aa32b1908945427c7ae2e3e = $(`<div id="html_b41367036aa32b1908945427c7ae2e3e" style="width: 100.0%; height: 100.0%;">Ростов-на-Дону Приоритет: 6</div>`)[0];
+                popup_41f8ba059d3b943cd18c193314356d5b.setContent(html_b41367036aa32b1908945427c7ae2e3e);
+            
+        
+
+        marker_a9ede2a2e83325b6d491772579d642e3.bindPopup(popup_41f8ba059d3b943cd18c193314356d5b)
+        ;
+
+        
+    
+    
+                marker_a9ede2a2e83325b6d491772579d642e3.setIcon(icon_0d9536ae43b66461736fbadf916afef2);
+            
+    
+            var marker_a812990090d5160d73dc7320d858e9d2 = L.marker(
+                [54.9803, 73.3757],
+                {
+}
+            ).addTo(map_6dbf045d27e7aa9bdfb773ff2046b094);
+        
+    
+            var icon_68ed4414623e640b18d99507fbcaabc8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6cf6d1c03ceba38c4fd2dd3739ff3835 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd185257b614493beb20f6d8918a7fae = $(`<div id="html_bd185257b614493beb20f6d8918a7fae" style="width: 100.0%; height: 100.0%;">Новосибирск Приоритет: 5</div>`)[0];
+                popup_6cf6d1c03ceba38c4fd2dd3739ff3835.setContent(html_bd185257b614493beb20f6d8918a7fae);
+            
+        
+
+        marker_a812990090d5160d73dc7320d858e9d2.bindPopup(popup_6cf6d1c03ceba38c4fd2dd3739ff3835)
+        ;
+
+        
+    
+    
+                marker_a812990090d5160d73dc7320d858e9d2.setIcon(icon_68ed4414623e640b18d99507fbcaabc8);
+            
+    
+            var marker_a73344401367794f9f4bb09387690da1 = L.marker(
+                [53.2005, 50.1],
+                {
+}
+            ).addTo(map_6dbf045d27e7aa9bdfb773ff2046b094);
+        
+    
+            var icon_f1cd3a55cd8860d8894abcd02b96dc12 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_23a4fe0fb8c47e50c5e883da0e8485aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b28efc0516d457d6552e9da6581bc4bb = $(`<div id="html_b28efc0516d457d6552e9da6581bc4bb" style="width: 100.0%; height: 100.0%;">Самара Приоритет: 4</div>`)[0];
+                popup_23a4fe0fb8c47e50c5e883da0e8485aa.setContent(html_b28efc0516d457d6552e9da6581bc4bb);
+            
+        
+
+        marker_a73344401367794f9f4bb09387690da1.bindPopup(popup_23a4fe0fb8c47e50c5e883da0e8485aa)
+        ;
+
+        
+    
+    
+                marker_a73344401367794f9f4bb09387690da1.setIcon(icon_f1cd3a55cd8860d8894abcd02b96dc12);
+            
+    
+            var marker_4b3eb01cf5bfe7e3c2dbe07b2c825d1b = L.marker(
+                [56.8389, 60.6057],
+                {
+}
+            ).addTo(map_6dbf045d27e7aa9bdfb773ff2046b094);
+        
+    
+            var icon_6c7f98f098bfe4c5c514fc2cf582a867 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eeed7bf3ff5d9e59c112ec4e8f80cf78 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d82117eb37b27c875cea22876a19108 = $(`<div id="html_2d82117eb37b27c875cea22876a19108" style="width: 100.0%; height: 100.0%;">Екатеринбург Приоритет: 8</div>`)[0];
+                popup_eeed7bf3ff5d9e59c112ec4e8f80cf78.setContent(html_2d82117eb37b27c875cea22876a19108);
+            
+        
+
+        marker_4b3eb01cf5bfe7e3c2dbe07b2c825d1b.bindPopup(popup_eeed7bf3ff5d9e59c112ec4e8f80cf78)
+        ;
+
+        
+    
+    
+                marker_4b3eb01cf5bfe7e3c2dbe07b2c825d1b.setIcon(icon_6c7f98f098bfe4c5c514fc2cf582a867);
+            
+    
+            var marker_4afbb4cbfbacd6a75eba0df080936d1a = L.marker(
+                [55.7558, 37.6176],
+                {
+}
+            ).addTo(map_6dbf045d27e7aa9bdfb773ff2046b094);
+        
+    
+            var icon_ac9a2e612debf3855eb2d45bc6d9fd80 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e81406b548e9e8181d3dcebb46a8473 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e643dd1e4a12d302309e2e73162fc97 = $(`<div id="html_7e643dd1e4a12d302309e2e73162fc97" style="width: 100.0%; height: 100.0%;">Москва Приоритет: 1</div>`)[0];
+                popup_4e81406b548e9e8181d3dcebb46a8473.setContent(html_7e643dd1e4a12d302309e2e73162fc97);
+            
+        
+
+        marker_4afbb4cbfbacd6a75eba0df080936d1a.bindPopup(popup_4e81406b548e9e8181d3dcebb46a8473)
+        ;
+
+        
+    
+    
+                marker_4afbb4cbfbacd6a75eba0df080936d1a.setIcon(icon_ac9a2e612debf3855eb2d45bc6d9fd80);
+            
+    
+            var marker_b47962e04098c555bbf7a2e5a9b336d4 = L.marker(
+                [56.2965, 43.9361],
+                {
+}
+            ).addTo(map_6dbf045d27e7aa9bdfb773ff2046b094);
+        
+    
+            var icon_3d9df37aa4e712fa0b52586ff7a97e91 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_93f9ee2efe88fe5c9979f1eea8e8e2ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18c0a39c3fb55c06f4b46736448e36a5 = $(`<div id="html_18c0a39c3fb55c06f4b46736448e36a5" style="width: 100.0%; height: 100.0%;">Нижний Новгород Приоритет: 3</div>`)[0];
+                popup_93f9ee2efe88fe5c9979f1eea8e8e2ec.setContent(html_18c0a39c3fb55c06f4b46736448e36a5);
+            
+        
+
+        marker_b47962e04098c555bbf7a2e5a9b336d4.bindPopup(popup_93f9ee2efe88fe5c9979f1eea8e8e2ec)
+        ;
+
+        
+    
+    
+                marker_b47962e04098c555bbf7a2e5a9b336d4.setIcon(icon_3d9df37aa4e712fa0b52586ff7a97e91);
+            
+    
+            var poly_line_381634e916e346df2d17c539f227b8e3 = L.polyline(
+                [[55.1599, 61.4029], [53.2005, 50.1], [47.2355, 39.7078], [55.7558, 37.6176]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_6dbf045d27e7aa9bdfb773ff2046b094);
+        
+</script>
+</html>
